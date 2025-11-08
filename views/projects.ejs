@@ -1,0 +1,26 @@
+<% const contents = `
+<section id="projects">
+  <h1>My Projects</h1>
+
+  <div class="project-item mb-3">
+    <h2 class="Project1">Network Security Simulation</h2>
+    <p>Created a simulated network using Cisco Packet Tracer to demonstrate firewall and routing protocols learned in networking courses.</p>
+  </div>
+
+  <div class="project-item mb-3">
+    <h2 class="Project2">Windows Forensics</h2>
+    <p>Participated in finding hidden/deleted files on one's PC through a variety of software.</p>
+  </div>
+
+  <div class="project-item mb-3">
+    <h2 class="Project3">Managing Minecraft Server</h2>
+    <p>Implemented plugins; launched to a playerbase of ~100; optimized performance from feedback.</p>
+  </div>
+
+  <div class="project-item mb-3">
+    <h2 class="Project4">Python "Snake" Game</h2>
+    <p>Built a simple Snake game in Python; learned core game loop and input handling.</p>
+  </div>
+</section>
+`; %>
+<%- include('layout', { title, bodyClass, body: contents }) %>

@@ -1,0 +1,127 @@
+/* MAIN BODY */
+body.minimain {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background-color: black;
+  color: #fff; 
+}
+
+body.aboutmemini {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  color: white
+}
+
+body.contactmini {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background-color: black;
+  color: white;
+}
+
+body.projectsmini {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background: linear-gradient(45deg, #62F5EA, #62A2F5, #62D0F5, #62F5B9, #6273F5, #B4E4F5);
+  color: white;
+}
+
+/* MAIN HEADER AND NAV */
+header {
+  background-color: darkslategray; 
+  padding: 15px 0;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: #fff; 
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* MAIN WELCOME PORTION */
+#welcome {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+#welcome h1 {
+  font-size: 3rem;
+  color: #00aaff; 
+  margin-bottom: 15px;
+}
+
+#welcome p {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+/* MAIN FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #aaa; 
+}
+
+#about-me {
+  font-size: 1.6rem;
+  color: lightblue;
+  text-align: center;
+}
+
+#media img,
+#media video {
+  width: 900px;
+  height: 900px;
+}
+
+.Project1 {
+  color: red;
+}
+
+.Project2 {
+  color: lightblue;
+}
+
+.Project3 {
+  color: purple;
+}
+
+.Project4 {
+  color: Orange;
+}
+
+
+#contact-page {
+  width: 400px;
+  margin: 40px auto;
+}
+
+#contact-page label,
+#contact-page input,
+#contact-page textarea,
+#contact-page button {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#contact-page button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+}

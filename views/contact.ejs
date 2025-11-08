@@ -1,0 +1,21 @@
+<% const contents = `
+<section id="contact-page" class="mx-auto" style="max-width: 480px;">
+  <h1>Contact Me</h1>
+  <form>
+    <label class="form-label">Name</label>
+    <input class="form-control" type="text" placeholder="Your full name" required>
+
+    <label class="form-label mt-3">Email</label>
+    <input class="form-control" type="email" placeholder="example@example.com" required>
+
+    <label class="form-label mt-3">Cell No.</label>
+    <input class="form-control" type="tel" pattern="[0-9]{10}" placeholder="1234567890" required>
+
+    <label class="form-label mt-3">Comments</label>
+    <textarea class="form-control" rows="5" placeholder="Write your message here..." required></textarea>
+
+    <button class="btn btn-danger mt-3" type="submit">Submit</button>
+  </form>
+</section>
+`; %>
+<%- include('layout', { title, bodyClass, body: contents }) %>

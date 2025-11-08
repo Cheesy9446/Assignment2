@@ -1,0 +1,20 @@
+<% const contents = `
+<section id="about-me" class="text-center">
+  <h1>About Me</h1>
+  <p>Hello! My name is Humza. I am a university student studying Networking Security at Ontario Tech.</p>
+  <p>I enjoy outdoor activities, sports like football and ultimate frisbee, and experimenting with new recipes.</p>
+  <p>On this portfolio, I am learning how to properly organize and make this page appealing to the eye.</p>
+  <p>I hope it caught your eye!</p>
+
+  <h2 class="mt-4">Small clip from Black Myth: Wukong</h2>
+  <video width="640" height="360" controls>
+    <source src="/videos/blackmyth.mp4" type="video/mp4">
+    Your browser does not support the video tag
+  </video>
+</section>
+
+<section id="media" class="text-center mt-4">
+  <img src="/images/profile.png" alt="Main Profile Picture" style="max-width: 320px;">
+</section>
+`; %>
+<%- include('layout', { title, bodyClass, body: contents }) %>
