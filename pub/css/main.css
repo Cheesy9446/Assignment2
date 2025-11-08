@@ -33,7 +33,7 @@ body.projectsmini {
 
 /* MAIN HEADER AND NAV */
 header {
-  background-color: darkslategray; 
+  background-color: black !important;
   padding: 15px 0;
 }
 
@@ -124,4 +124,18 @@ footer {
   color: white;
   border: none;
   padding: 10px;
+}
+header, header.navbar, nav.navbar {
+  background-color: black !important;
+}
+header {
+  background-color: black;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid #333;
+}
+
+header a:hover {
+  color: #00aaff;
+  text-decoration: underline;
+  transition: color 0.3s ease;
 }
